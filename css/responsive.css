@@ -1,0 +1,184 @@
+
+@media(min-width: 1201px){
+    .header .nav{
+        display: block!important;
+    }
+}
+@media(max-width: 1200px){
+    .header .logo{
+        padding: 8px 15px;
+    }
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+
+    }
+    .row .align-items-center .justify-content-between{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+    .home-section .home-content h1{
+        font-size: 80px;
+    }
+    .home-section .home-content span{
+        font-size: 18px;
+        padding: 7px 20px;
+    }
+    .story-section .story-img{
+        margin-top: 20px;
+    }
+    .story-section .story-content:before{
+        display: none;
+    }
+    .story-section .story-item i{
+        display: none;
+    }
+    .story-section .story-img{
+        display: none;
+    }
+    .story-section .story-text, .story-section .story-img{
+        flex: 0 0 100%;
+        max-width: 100% ;
+    }
+    .story-section .story-item:nth-child(odd) .story-text{
+        padding: 0 15px 0 60px;
+        text-align: left;
+    }
+    .story-section .story-item:nth-child(even) .story-text{
+        padding: 0 15px 0 60px;
+        text-align: left;
+    }
+    .toastmaster-section .toastmaster img{
+        border: 6px solid #555555;
+    }
+    .toastmaster-section .toastmaster h3{
+        font-size: 20px;
+    }
+    .toastmaster-section .toastmaster-contact p{
+        margin: 10px 60px 0;
+    }
+    .wishlist-section .wishlist-content p{
+        margin: 10px 30px;
+    }
+    .toastmaster-section .toastmaster{
+        padding: 0 10px;
+    }
+    .toastmaster-section .toastmaster-contact{
+        margin: 10px;
+    }
+    .wishlist-section .bg-modal .sort-modal-content{
+        width: 40%;
+    }
+    .su-fa-modal .su-fa-modal-content h4{
+        padding-right: 40px;
+    }
+    .su-fa-modal .su-fa-modal-content{
+        width: 50%;
+    }
+}
+
+@media(max-width: 1100px){
+    .toastmaster-section .toastmaster{
+        padding: 0 10px 0 10px;
+    }
+    .toastmaster-section .toastmaster.second{
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media(max-width: 574px){
+    .home-section .home-content h1{
+        font-size: 70px;
+        position: absolute;
+        bottom: 25%;
+        left: 20%;
+    }
+    .home-section .home-content span{
+        position: absolute;
+        bottom: 15%;
+        left: 35%;
+    }
+    .toastmaster-section .toastmaster{
+        padding: 0 10px;
+    }
+    .toastmaster-section .toastmaster h3{
+        font-size: 15px;
+    }
+    .toastmaster-section .toastmaster-contact{
+        margin: 10px;
+    }
+    .rsvp-section .varsel{
+        margin: 0px 0 0 20px;
+    }
+    .wishlist-section .bg-modal .sort-modal-content{
+        width: 50%;
+    }
+    .su-fa-modal .su-fa-modal-content{
+        width: 60%;
+    }
+    .su-fa-modal .su-fa-modal-content h4{
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 510px){
+    .rsvp-section .varsel{
+        margin: 20px 0 0px 0px;
+    }
+    .wishlist-section .bg-modal .sort-modal-content{
+        width: 60%;
+    }
+    .su-fa-modal .su-fa-modal-content{
+        width: 70%;
+    }
+}
+
+@media(max-width: 450px){
+    .home-section .home-content h1{
+        font-size: 70px;
+        position: absolute;
+        bottom: 25%;
+        left: 10%;
+    }
+    .home-section .home-content span{
+        position: absolute;
+        bottom: 15%;
+        left: 30%;
+        font-size: 22px;
+        padding: 7px 20px;
+    }
+    .story-section .story-item:nth-child(odd) .story-text{
+        padding: 0 15px 0 20px;
+    }
+    .story-section .story-item:nth-child(even) .story-text{
+        padding: 0 15px 0 20px;
+    }
+    .toastmaster-section .toastmaster-contact p{
+        margin: 10px 10px;
+    }
+    .wishlist-section .wishlist-content p{
+        margin: 10px 10px;
+    }
+    .wishlist-section .bg-modal .sort-modal-content{
+        width: 70%;
+    }
+    .su-fa-modal .su-fa-modal-content{
+        width: 80%;
+    }
+}
